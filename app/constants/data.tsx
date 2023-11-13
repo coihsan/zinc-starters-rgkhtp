@@ -14,4 +14,62 @@ export const testimonial = [
         message: "I am very happy with the results of Zinc Studio's digital marketing services. My business has grown significantly, and I am confident that Zinc Studio will continue to help me grow my business in the future.",
         picture: "/user.svg"
     },
+    {
+        name: "Susan Smith, Owner of Smith's Bakery",
+        message: "I am very happy with the results of Zinc Studio's digital marketing services. My business has grown significantly, and I am confident that Zinc Studio will continue to help me grow my business in the future.",
+        picture: "/user.svg"
+    },
+    {
+        name: "Susan Smith, Owner of Smith's Bakery",
+        message: "I am very happy with the results of Zinc Studio's digital marketing services. My business has grown significantly, and I am confident that Zinc Studio will continue to help me grow my business in the future.",
+        picture: "/user.svg"
+    },
+    {
+        name: "Susan Smith, Owner of Smith's Bakery",
+        message: "I am very happy with the results of Zinc Studio's digital marketing services. My business has grown significantly, and I am confident that Zinc Studio will continue to help me grow my business in the future.",
+        picture: "/user.svg"
+    },
+]
+
+export const channelPlatfor = [
+    {
+        channelName: "Tokopedia",
+        promo: "Free Delivery",
+        icon: "#",
+        urlTarget: "#",
+        theme: {
+            backgroundColor: "#",
+            color: "#"
+        }
+    },
+    {
+        channelName: "Shopee",
+        promo: "Free Delivery",
+        icon: "#",
+        urlTarget: "#",
+        theme: {
+            backgroundColor: "#",
+            color: "#"
+        }
+    },
+    {
+        channelName: "Lazada",
+        promo: "Free Delivery",
+        icon: "#",
+        urlTarget: "#",
+        theme: {
+            backgroundColor: "#",
+            color: "#"
+        }
+    },
+    {
+        channelName: "Blibli",
+        promo: "Free Ongkir",
+        icon: "#",
+        urlTarget: "#",
+        theme: {
+            backgroundColor: "#",
+            color: "#"
+        }
+    },
 ]
