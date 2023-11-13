@@ -1,6 +1,6 @@
 "use client"
 import React, {useState, useEffect} from 'react'
-import { GoogleMap, LoadScript } from "@googlemaps/react-wrapper";
+import { GoogleMap, LoadScript } from "@googlemaps/js-api-loader";
 
 const Map = () => {
     const [map, setMap] = useState(null);
