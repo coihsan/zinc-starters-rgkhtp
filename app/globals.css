@@ -29,4 +29,7 @@ body {
   .textHeading{
     @apply text-center font-bold text-4xl pb-[2rem]
   }
+  .flexCenter{
+    @apply  flex items-center justify-center
+  }
 }
