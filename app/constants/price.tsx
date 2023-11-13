@@ -1,6 +1,7 @@
 export const package1 = [
     {
         name: "Standard",
+        icon: "/like.svg",
         theme: {
             backgroundColor: "#f4f4f5" ,
         },
@@ -17,6 +18,8 @@ export const package1 = [
     },
     {
         name: "Basic",
+        icon: "/hearth.svg",
+        ribbon: "Populer",
         theme: {
             backgroundColor: "#a1a1aa",
             color: "#f4f4f5",
@@ -31,13 +34,10 @@ export const package1 = [
         ],
         basicprice: "4.500.000",
         promoprice: "4.000.000",
-        transform:{
-            scale: "1.1",
-            boxShadow: "0px 10px 10px #a1a1aa"
-        }
     },
     {
         name: "Premium",
+        icon: "/diamond.svg",
         theme: {
             backgroundColor: "#f4f4f5" ,
         },
