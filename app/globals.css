@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+@layer utilities{
+  .textHeading{
+    @apply text-center font-bold text-4xl pb-[2rem]
+  }
+}
