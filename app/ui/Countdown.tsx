@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import CallUs from "@/app/ui/CallUs";
 
 const CountdownTimer = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -39,16 +40,21 @@ const CountdownTimer = () => {
   }
 
   return (
-    <section className='w-full bg-zinc-200 py-[7rem] px-[1rem]'>
-      <div className='max-w-screen-xl mx-auto px-[1rem] flexCol items-center justify-center gap-3'>
-        <Image src={'/clock.svg'} width={150} height={150} alt="clock" />
-        <h1 className='text-5xl font-bold'>Limited time offer</h1>
-          <h2 className='text-3xl font-bold w-max flex gap-2'>
+    <section className='w-full bg-zinc-200 py-[7rem] px-[1rem] '>
+      <div className='max-w-screen-xl mx-auto flex items-center justify-evenly max-[600px]:flexCol max-[600px]:items-center'>
+            <Image src={'/clock.svg'} width={250} height={10} alt="clock" />
+        <div className="flexCol gap-3 max-[600px]:items-center">
+          <h1 className='text-5xl font-bold max-[600px]:text-center'>Limited time offer</h1>
+          <div className='text-3xl font-bold w-max flex gap-2'>
             <span className="bg-white p-5 rounded-lg">14</span>
             <span className="bg-white p-5 rounded-lg">Nov</span>
             <span className="bg-white p-5 rounded-lg">2024</span>
-          </h2>
+          </div>
           <p className='font-bold text-2xl'>Remaining time: {remainingTime}</p>
+          <div className="py-[1rem]">
+            <CallUs />
+          </div>
+        </div>
       </div>
     </section>
   )

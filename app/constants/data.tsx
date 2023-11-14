@@ -112,3 +112,30 @@ export const feature =[
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
 ]
+
+export const FAQ = [
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+    {
+        ask: "Lorem ipsum dolor sit amet?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
+    },
+]

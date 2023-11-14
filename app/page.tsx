@@ -7,6 +7,7 @@ import Testimonial from './default/Testimonial'
 import Header from './default/Header'
 import GoogleMaps from './ui/GoogleMaps'
 import Channel from './default/Channel'
+import FAQ from './default/FAQ'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Channel />
       {/* <GoogleMaps /> */}
       <Testimonial />
+      <FAQ />
     </main>
   )
 }
