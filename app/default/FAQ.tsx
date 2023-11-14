@@ -16,11 +16,13 @@ export default function Faq(){
             <h1 className="textHeading">FAQ</h1>
             <div className="grid gap-3 cursor-pointer">
             {FAQ.map((list, index) => (
-                <div className="bg-white rounded-lg p-5" key={index}>
+                <div className={'bg-white rounded-lg p-5 transition-all ease-linear '} key={index} 
+
+                onClick={() => handleClick(index)}>
                 {/* header */}
                 <div
                     className="flex items-center justify-between w-full cursor-pointer"
-                    onClick={() => handleClick(index)}
+                    
                 >
                     <h2 className="font-medium text-2xl">{list.ask}</h2>
                     <Image
