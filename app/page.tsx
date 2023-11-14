@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from './default/Hero'
 import Feature from './default/Feature'
 import PriceCard from './default/PriceCard'
+import Countdown from './ui/Countdown'
 import Testimonial from './default/Testimonial'
 import Header from './default/Header'
 import GoogleMaps from './ui/GoogleMaps'
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Feature />
       <PriceCard />
+      <Countdown />
       <Channel />
       {/* <GoogleMaps /> */}
       <Testimonial />

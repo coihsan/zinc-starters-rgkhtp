@@ -1,6 +1,5 @@
 import {package1} from '@/app/constants/price'
 import Image from '@/node_modules/next/image';
-import Countdown from '@/app/ui/Countdown'
 import React from 'react';
 
 const PriceCard: React.FC = () => {
@@ -62,7 +61,6 @@ const PriceCard: React.FC = () => {
           </div>
         ))}
       </div>
-        <Countdown />
     </section>
   );
 };
