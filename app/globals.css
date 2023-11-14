@@ -35,4 +35,7 @@ body {
   .flexCol{
     @apply flex flex-col
   }
+  .hoverButton{
+    @apply transition-all ease-linear hover:scale-95
+  }
 }

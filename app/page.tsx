@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Hero from './default/Hero'
+import Feature from './default/Feature'
 import PriceCard from './default/PriceCard'
 import Testimonial from './default/Testimonial'
 import Header from './default/Header'
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="">
       <Header />
       <Hero />
+      <Feature />
       <PriceCard />
       <Channel />
       {/* <GoogleMaps /> */}

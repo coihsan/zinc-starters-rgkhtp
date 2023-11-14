@@ -73,3 +73,42 @@ export const channelPlatform = [
         }
     },
 ]
+
+export const feature =[
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 1",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 2",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 3",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 4",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 5",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        icon: "/star.svg",
+        alt: "zinc feature",
+        title: "Feature 6",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+]

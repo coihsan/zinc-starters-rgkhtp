@@ -55,7 +55,7 @@ const PriceCard: React.FC = () => {
               ))}
             </ul>
             <button
-              className="w-full rounded-xl p-2 bg-zinc-950 text-white mt-[2rem] shadow-lg"
+              className=" hoverButton w-full rounded-xl p-2 bg-zinc-950 text-white mt-[2rem] shadow-lg"
             >
               Contact Sales
             </button>
