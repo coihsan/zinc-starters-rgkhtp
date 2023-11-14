@@ -8,12 +8,15 @@ import Header from './default/Header'
 import GoogleMaps from './ui/GoogleMaps'
 import Channel from './default/Channel'
 import FAQ from './default/FAQ'
-
+import Content1 from './default/content/Content1'
+import Content2 from './default/content/Content2'
 export default function Home() {
   return (
     <main className="">
       <Header />
       <Hero />
+      <Content1 />
+      <Content2 />
       <Feature />
       <PriceCard />
       <Countdown />
