@@ -31,11 +31,11 @@ export const testimonial = [
     },
 ]
 
-export const channelPlatfor = [
+export const channelPlatform = [
     {
         channelName: "Tokopedia",
         promo: "Free Delivery",
-        icon: "#",
+        icon: "/tokopedia.svg",
         urlTarget: "#",
         theme: {
             backgroundColor: "#",
@@ -45,7 +45,7 @@ export const channelPlatfor = [
     {
         channelName: "Shopee",
         promo: "Free Delivery",
-        icon: "#",
+        icon: "/shopee.svg",
         urlTarget: "#",
         theme: {
             backgroundColor: "#",
@@ -55,7 +55,7 @@ export const channelPlatfor = [
     {
         channelName: "Lazada",
         promo: "Free Delivery",
-        icon: "#",
+        icon: "/lazada.svg",
         urlTarget: "#",
         theme: {
             backgroundColor: "#",
@@ -63,9 +63,9 @@ export const channelPlatfor = [
         }
     },
     {
-        channelName: "Blibli",
+        channelName: "Amazon",
         promo: "Free Ongkir",
-        icon: "#",
+        icon: "/amazon.svg",
         urlTarget: "#",
         theme: {
             backgroundColor: "#",
