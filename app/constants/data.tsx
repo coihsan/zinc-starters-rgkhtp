@@ -44,7 +44,7 @@ export const channelPlatform = [
     },
     {
         channelName: "Shopee",
-        promo: "Free Delivery",
+        promo: "Free Delivery + Discount 5%",
         icon: "/shopee.svg",
         urlTarget: "#",
         theme: {
@@ -64,7 +64,7 @@ export const channelPlatform = [
     },
     {
         channelName: "Amazon",
-        promo: "Free Ongkir",
+        promo: "Free Delivery",
         icon: "/amazon.svg",
         urlTarget: "#",
         theme: {
