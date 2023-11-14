@@ -8,7 +8,7 @@ export default function Hero(){
                 <p className="max-[600px]:text-center pb-[1rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <CallUs />
             </div>
-            <Image className="rounded-md w-auto flex-1 border border-zinc-500 w-[30%]" src={'/blank.svg'} width={300} height={200} alt="Hero" />
+            <Image className="rounded-md flex-1 border border-zinc-500 w-[30%] max-[600px]:w-full" src={'/blank.svg'} width={300} height={200} alt="Hero" />
         </section>
     )
 }
