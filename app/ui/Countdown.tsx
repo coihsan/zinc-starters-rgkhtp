@@ -40,7 +40,7 @@ const CountdownTimer = () => {
   }
 
   return (
-    <section className='w-full bg-zinc-200 py-[7rem] px-[1rem] '>
+    <section className='w-full bg-slate-300 py-[7rem] px-[1rem] '>
       <div className='max-w-screen-xl mx-auto flex items-center justify-evenly max-[600px]:flexCol max-[600px]:items-center'>
             <Image src={'/clock.svg'} width={250} height={10} alt="clock" />
         <div className="flexCol gap-3 max-[600px]:items-center">

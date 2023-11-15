@@ -10,6 +10,7 @@ import Channel from './default/Channel'
 import FAQ from './default/FAQ'
 import Content1 from './default/content/Content1'
 import Content2 from './default/content/Content2'
+import Content3 from './default/content/Content3'
 export default function Home() {
   return (
     <main className="">
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Content1 />
       <Content2 />
+      <Content3 />
       <Feature />
       <PriceCard />
       <Countdown />
