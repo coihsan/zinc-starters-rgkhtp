@@ -27,7 +27,11 @@ export default function Faq(){
                     className="flex items-center justify-between w-full cursor-pointer"
                     
                 >
-                    <h2 className="font-medium text-2xl max-[600px]:text-[1.2rem]">{list.ask}</h2>
+                    <ul className="list-disc">
+                        <li className="font-medium text-[1rem] flex items-center gap-2">
+                            {list.ask}
+                        </li>
+                    </ul>
                     <Image
                     src={openIndex === index ? '/chevron-up.svg' : '/chevron-down.svg'}
                     width={16}

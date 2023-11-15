@@ -115,26 +115,32 @@ export const feature =[
 
 export const FAQ = [
     {
+        id: 1,
         ask: "Which payment methods do you accept?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
+        id: 2,
         ask: "What’s included with membership?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
+        id: 3,
         ask: "How does it work?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
+        id: 4,
         ask: "How do I contact you?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
+        id: 5,
         ask: "Is it really unlimited?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
+        id: 6,
         ask: "Where’s my stuff being stored?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
