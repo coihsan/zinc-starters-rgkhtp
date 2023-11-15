@@ -145,3 +145,22 @@ export const FAQ = [
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
 ]
+
+export const content3 = [
+    {
+        title: "High level of customization",
+        desc: "Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time."
+    },
+    {
+        title: "Multiple layout possibilities",
+        desc: "Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation."
+    },
+    {
+        title: "Fully responsive design",
+        desc: "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience."
+    },
+    {
+        title: "Integration of media",
+        desc: "Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively."
+    },
+]
