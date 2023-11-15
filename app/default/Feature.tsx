@@ -2,7 +2,7 @@ import {feature} from '@/app/constants/data'
 import Image from 'next/image'
 export default function Feature(){
     return(
-        <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem]">
+        <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem] max-[600px]:py-[2rem]">
             <h1 className="textHeading">Feature</h1>
             <div className="w-full grid grid-cols-3 gap-3 max-[600px]:grid-cols-1">
                 {feature.map((feature) =>(

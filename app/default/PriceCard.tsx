@@ -4,7 +4,7 @@ import React from 'react';
 
 const PriceCard: React.FC = () => {
   return (
-    <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem]">
+    <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem] max-[600px]:py-[2rem]">
       <div className="mb-6">
         <h1 className="textHeading leading-none">Woohoo! The price has dropped</h1>
         <p className="text-center max-w-screen-md mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

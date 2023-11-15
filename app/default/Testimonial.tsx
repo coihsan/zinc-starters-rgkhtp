@@ -2,7 +2,7 @@ import {testimonial} from '@/app/constants/data'
 import Image from '@/node_modules/next/image'
 export default function Testimoni(){
     return(
-        <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem] ">
+        <section className="max-w-screen-xl mx-auto px-[1rem] py-[7rem] max-[600px]:py-[2rem]">
             <h1 className='textHeading'>Testimoni</h1>
             <div className='w-full grid grid-cols-3 gap-3 max-[600px]:flex max-[600px]:overflow-scroll'>
             {testimonial.map((person) =>(

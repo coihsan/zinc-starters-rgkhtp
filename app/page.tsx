@@ -16,8 +16,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Content1 />
-      <Feature />
       <Content2 />
+      <Feature />
       <PriceCard />
       <Countdown />
       <Channel />

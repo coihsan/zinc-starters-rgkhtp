@@ -115,27 +115,27 @@ export const feature =[
 
 export const FAQ = [
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "Which payment methods do you accept?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "What’s included with membership?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "How does it work?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "How do I contact you?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "Is it really unlimited?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
     {
-        ask: "Lorem ipsum dolor sit amet?",
+        ask: "Where’s my stuff being stored?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis mauris, cursus in luctus et, posuere vitae nisl. Vivamus lacinia lectus arcu, sed molestie justo sagittis id. Duis et magna at risus dictum tempus sed ac ex. Proin viverra turpis at imperdiet pulvinar. Donec porttitor nunc eget nibh lacinia lobortis. Cras eu fermentum felis."
     },
 ]
