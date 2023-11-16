@@ -9,7 +9,7 @@ export default function Content3(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet massa nec felis vestibulum condimentum accumsan ac tortor. Etiam euismod consequat felis, pulvinar rutrum sapien elementum a. Vestibulum bibendum nisi in lacinia maximus. Phasellus pretium hendrerit purus, non lacinia augue ornare vitae. Suspendisse eleifend dapibus sem a gravida. Suspendisse non odio nisl.</p>
                 <ul className='list-image-[url(/check.svg)] pt-[2rem] flexCol gap-4 block'>
                     {content3.map((content) =>(
-                        <li className='ml-[4rem] max-[600px]:ml-[2rem]'>
+                        <li key={content.id} className='ml-[4rem] max-[600px]:ml-[2rem]'>
                             <h3 className='text-2xl font-medium leading-none'>{content.title}</h3>
                             <p>{content.desc}</p>
                         </li> 

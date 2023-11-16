@@ -5,9 +5,9 @@ import { FAQ } from "@/app/constants/data";
 import Image from 'next/image'
 
 export default function Faq(){
-    const [openIndex, setOpenIndex] = useState(null)
+    const [openIndex, setOpenIndex] = useState<string | null>(null);
 
-    const handleClick = (index) => {
+    const handleClick = (index: string) => {
         setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
       };
 
