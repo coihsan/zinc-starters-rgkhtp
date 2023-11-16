@@ -12,7 +12,7 @@ export default function Hero(){
                 <CallUs />
             </div>
             <div className="w-[50%] max-[600px]:w-full">
-                <Image className="rounded-md flex-1 border border-zinc-500 w-full" src={'/blank-ratio.svg'} width={300} height={200} alt="Hero" />
+                <Image className="rounded-md flex-1 border border-zinc-500 w-full" src={'/1700042466838.webp'} width={300} height={200} alt="Hero" />
             </div>
         </section>
     )
