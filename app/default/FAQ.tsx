@@ -19,9 +19,9 @@ export default function Faq(){
             </div>
             <div className="grid gap-3 cursor-pointer">
             {FAQ.map((list, index) => (
-                <div className={'bg-white hover:bg-zinc-100 rounded-lg p-5 transition-all ease-linear '} key={index} 
+                <div className={'bg-white hover:bg-zinc-100 rounded-lg p-5 transition-all ease-linear '} key={index.toString()} 
 
-                onClick={() => handleClick(index)}>
+                onClick={() => handleClick(index.toString())}>
                 {/* header */}
                 <div
                     className="flex items-center justify-between w-full cursor-pointer"
@@ -33,14 +33,14 @@ export default function Faq(){
                         </li>
                     </ul>
                     <Image
-                    src={openIndex === index ? '/chevron-up.svg' : '/chevron-down.svg'}
+                    src={openIndex === index.toString() ? '/chevron-up.svg' : '/chevron-down.svg'}
                     width={16}
                     height={16}
                     alt="chevron"
                     />
                 </div>
                 {/* desc */}
-                <div className={openIndex === index ? 'pt-[1rem]' : 'hidden'}>
+                <div className={openIndex === index.toString() ? 'pt-[1rem]' : 'hidden'}>
                     <p>{list.answer}</p>
                 </div>
                 </div>

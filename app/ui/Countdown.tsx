@@ -5,7 +5,7 @@ import CallUs from "@/app/ui/CallUs";
 
 const CountdownTimer = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [remainingTime, setRemainingTime] = useState(null);
+  const [remainingTime, setRemainingTime] = useState<string | null>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -14,7 +14,7 @@ const CountdownTimer = () => {
 
     const calculateRemainingTime = () => {
       const targetTime = new Date('2024-11-14');
-      const difference = targetTime - currentTime;
+      const difference = targetTime.getTime() - currentTime.getTime();
 
       if (difference < 0) {
         setRemainingTime(null);
@@ -25,7 +25,8 @@ const CountdownTimer = () => {
       const minutes = Math.floor((difference / 1000 / 60) % 60);
       const seconds = Math.floor((difference / 1000) % 60);
 
-      setRemainingTime(`${hours}:${minutes}:${seconds}`);
+      const formattedTime = `${hours}:${minutes}:${seconds}`;
+      setRemainingTime(formattedTime);
     };
 
     calculateRemainingTime();
