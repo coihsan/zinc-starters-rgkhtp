@@ -50,7 +50,7 @@ const CountdownTimer = () => {
             <span className="bg-white p-5 rounded-lg">Nov</span>
             <span className="bg-white p-5 rounded-lg">2024</span>
           </div>
-          <p className='font-bold text-2xl'>Remaining time: {remainingTime}</p>
+          <p className='font-bold text-2xl max-[600px]:text-[18px]'>Remaining time: {remainingTime}</p>
           <div className="py-[1rem]">
             <CallUs />
           </div>
