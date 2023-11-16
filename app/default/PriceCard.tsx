@@ -14,11 +14,10 @@ const PriceCard: React.FC = () => {
         {package1.map((card, index) => (
           <div
             key={index}
-            className="overflow-hidden relative bg-white p-9 rounded-[5%] border border-zinc-300 transition-all ease-linear hover:translate-y-[-5px] hover:shadow-[0px_10px_10px_#a1a1aa]"
+            className="overflow-hidden relative bg-slate-950 p-9 rounded-[5%] border border-zinc-100/30 transition-all ease-linear hover:translate-y-[-5px] hover:shadow-[0px_10px_10px_#082f49]"
           >
             <div className="flex flex-col gap-3 items-center">
               <Image
-                className="fill-zinc-300"
                 src={card.icon}
                 width={50}
                 height={50}
