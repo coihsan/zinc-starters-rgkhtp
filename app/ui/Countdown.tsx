@@ -47,9 +47,9 @@ const CountdownTimer = () => {
         <div className="flexCol gap-3 max-[600px]:items-center">
           <h1 className='text-5xl font-bold max-[600px]:text-center'>Limited time offer</h1>
           <div className='text-3xl font-bold w-max flex gap-2'>
-            <span className="bg-white p-5 rounded-lg">14</span>
-            <span className="bg-white p-5 rounded-lg">Nov</span>
-            <span className="bg-white p-5 rounded-lg">2024</span>
+            <span className="bg-cyan-950/30 p-5 rounded-lg text-cyan-500">14</span>
+            <span className="bg-cyan-950/30 p-5 rounded-lg text-cyan-500">Nov</span>
+            <span className="bg-cyan-950/30 p-5 rounded-lg text-cyan-500">2024</span>
           </div>
           <p className='font-bold text-2xl max-[600px]:text-[18px]'>Remaining time: {remainingTime}</p>
           <div className="py-[1rem]">

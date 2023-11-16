@@ -4,7 +4,7 @@ export const package1 = [
         name: "Standard",
         icon: "/like.svg",
         theme: {
-            backgroundColor: "#f4f4f5" ,
+            backgroundColor: "#06b6d4" ,
         },
         desc: "Lorem ipsum dolor sit amet",
         package: [
@@ -23,7 +23,7 @@ export const package1 = [
         icon: "/hearth.svg",
         ribbon: "Populer",
         theme: {
-            backgroundColor: "#a1a1aa",
+            backgroundColor: "#06b6d4",
             color: "#f4f4f5",
         },
         desc: "Lorem ipsum dolor sit amet",
@@ -42,7 +42,7 @@ export const package1 = [
         name: "Premium",
         icon: "/diamond.svg",
         theme: {
-            backgroundColor: "#f4f4f5" ,
+            backgroundColor: "#06b6d4" ,
         },
         desc: "Lorem ipsum dolor sit amet",
         package: [
