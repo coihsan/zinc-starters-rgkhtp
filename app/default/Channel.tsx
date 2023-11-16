@@ -11,7 +11,7 @@ export default function Channel(){
                 </div>
                 <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1 ">
                     {channelPlatform.map((channel) => (
-                        <div className="flex items-center gap-5 p-4 border border-zinc-300 rounded-md max-[600px]:flex-col max-[600px]:items-center">
+                        <div key={channel.id} className="flex items-center gap-5 p-4 border border-zinc-300 rounded-md max-[600px]:flex-col max-[600px]:items-center">
                             <Image className="grayscale" src={channel.icon} width={50} height={50} alt="channel" />
                             <div className="flex items-center justify-between w-full max-[600px]:flex-col max-[600px]:gap-3">
                                 <div className="flexCol gap-1 max-[600px]:items-center w-full">

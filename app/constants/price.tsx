@@ -1,5 +1,6 @@
 export const package1 = [
     {
+        id: 0,
         name: "Standard",
         icon: "/like.svg",
         theme: {
@@ -17,6 +18,7 @@ export const package1 = [
         promoprice: "3.500.000",
     },
     {
+        id: 1,
         name: "Basic",
         icon: "/hearth.svg",
         ribbon: "Populer",
@@ -36,6 +38,7 @@ export const package1 = [
         promoprice: "4.000.000",
     },
     {
+        id: 2,
         name: "Premium",
         icon: "/diamond.svg",
         theme: {
